@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex; /*bring the items to the center horizontally*/
+    justify-content: center; /*to bring items to the center horizontally*/
+    height: 100vh; /*bring the items to the center vertically*/
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    font-family: cursive;
+  }
+  
+  .stats-container {
+    margin: 20px;
+    border: dotted black; /*dashed line
+    */
+    min-width: 200px;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .stats-container h4 {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /*we have the text in one line */
+  }
+  
+  .icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .counter {
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: green;
+  }
+  
+  /*we can see containers on the top of each other when they have a smaller screen*/
+  @media (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+  }
