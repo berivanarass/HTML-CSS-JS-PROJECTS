@@ -1,4 +1,4 @@
-##Emoji Rating Project##
+#Emoji Rating Project
 In this project, a simple rating application was made. By selecting the star level from 1 to 5, the appropriate emoji appears on the screen.
 1 Star: I did not like at all. Then Angry Face
 2 Stars: I do not like. Then Sad Face
