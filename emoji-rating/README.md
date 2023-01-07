@@ -11,3 +11,10 @@ In this project, a simple rating application was made. By selecting the star lev
 
 5 Stars: I love it. Then Laugh Face
 
+
+Sample Video Of The Project:
+
+
+
+<video src="https://user-images.githubusercontent.com/58749629/211148603-8d39e25b-47a1-4992-a7ac-b0c8d3891cd1.mp4"></video>
+
